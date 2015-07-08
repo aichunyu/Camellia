@@ -141,11 +141,11 @@ void shuchu(uchar S[16])
 	}
 
 	for(i=0;i<32;i++)
-		{
-			printf("%x",s[i]);
-			if((i+1)%2==0) printf(" ");
+	{
+		printf("%x",s[i]);
+		if((i+1)%2==0) printf(" ");
 
-	    }
+	}
 	printf("\n");
 }
 
