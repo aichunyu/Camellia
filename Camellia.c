@@ -348,7 +348,7 @@ void KeyExpansion(
 	uchar key[32],  		//输入，初始密钥
 	uchar kw[4][8], 		//输出，用于前期白化和后期白化
 	uchar kl[6][8], 		//输出，用于FL
-	uchar k[24][8])      //输出，在密钥
+	uchar k[24][8])         //输出，在密钥
 {
 	 uchar klft[16], krgt[16], ka[16], kb[16],keyxorka[16];//klft,krgt分别对应密钥的左右两部分
 	int i;
